@@ -22,7 +22,7 @@ pipelines:
                      - "echo yarn install and npm test"
               resources:
                 - yarn
-  api-package:
+  ui-package:
     group: contacts-app
     materials:
       compilation:
